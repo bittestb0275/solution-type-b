@@ -9,7 +9,7 @@ public class Main {
 
 	public static void findMaxProduct(int[] arr) {
 		int[] result = new int[2];
-		int mul = arr[0] * arr[1]; //초기값 고민
+		int mul = -999999999; 
 		
 		for (int i = 0; i < arr.length; i++) {
 			for(int j = 0; j < arr.length; j++) {
